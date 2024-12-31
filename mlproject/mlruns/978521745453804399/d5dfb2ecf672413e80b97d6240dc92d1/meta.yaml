@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Admin/Desktop/MLOps/mlproject/mlruns/978521745453804399/d5dfb2ecf672413e80b97d6240dc92d1/artifacts
+end_time: 1732707210513
+entry_point_name: ''
+experiment_id: '978521745453804399'
+lifecycle_stage: active
+run_id: d5dfb2ecf672413e80b97d6240dc92d1
+run_name: MLPipeline_Run
+run_uuid: d5dfb2ecf672413e80b97d6240dc92d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732707205058
+status: 3
+tags: []
+user_id: Admin

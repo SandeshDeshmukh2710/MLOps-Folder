@@ -1,0 +1,6 @@
+best_params:
+  max_depth: 10
+  n_estimators: 100
+  random_state: 42
+best_score: 0.95
+model_name: RandomForestClassifier

@@ -1,0 +1,16 @@
+data:
+  path: "data/data.csv"
+
+model:
+  save_path: "models/model.pkl"
+  hyperparameters:
+    n_estimators: 300
+    max_depth: 10
+    min_samples_split: 5
+    min_samples_leaf: 2
+    max_features: "sqrt"
+    random_state: 42
+    
+evaluation:
+  test_size: 0.1
+  random_state: 42

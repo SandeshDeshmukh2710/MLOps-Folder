@@ -1,0 +1,8 @@
+2024-11-20 11:53:06,609 - INFO - --------------Starting the MLPipeline--------------
+2024-11-20 11:53:06,611 - INFO - Configuration loaded successfully.
+2024-11-20 11:53:06,615 - INFO - Data loaded from data/data.csv.
+2024-11-20 11:53:06,620 - INFO - Data split into training and testing sets.
+2024-11-20 11:53:07,173 - INFO - Model trained and saved to models/model.pkl.
+2024-11-20 11:53:07,183 - INFO - Model Accuracy: 0.50
+2024-11-20 11:53:07,184 - INFO - Model Hyperparams: {'n_estimators': 300, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'random_state': 42}
+2024-11-20 11:53:07,184 - INFO - --------------Pipeline execution completed--------------

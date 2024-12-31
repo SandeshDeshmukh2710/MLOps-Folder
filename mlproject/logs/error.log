@@ -1,0 +1,1009 @@
+
+2024-11-25 15:36:13,967 - ERROR - An error occurred: 'Mmodel_mapping'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 24, in train_and_tune_models
+    model_mapping = config['Mmodel_mapping']
+                    ~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'Mmodel_mapping'
+2024-11-25 15:36:44,598 - ERROR - An error occurred: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 33, in train_and_tune_models
+    model = model_class()
+            ^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+2024-11-25 15:36:44,598 - ERROR - An error occurred: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 33, in train_and_tune_models
+    model = model_class()
+            ^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+2024-11-25 15:44:43,073 - ERROR - An error occurred: 'LogisticRegression,'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = MODEL_MAPPING[model_mapping[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'LogisticRegression,'
+2024-11-25 15:44:43,073 - ERROR - An error occurred: 'LogisticRegression,'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = MODEL_MAPPING[model_mapping[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'LogisticRegression,'
+2024-11-25 16:40:13,419 - ERROR - An error occurred: name 'MODEL_MAPPINGmodel_mapping' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPINGmodel_mapping[name]]
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'MODEL_MAPPINGmodel_mapping' is not defined
+2024-11-25 16:40:13,419 - ERROR - An error occurred: name 'MODEL_MAPPINGmodel_mapping' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPINGmodel_mapping[name]]
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'MODEL_MAPPINGmodel_mapping' is not defined
+2024-11-25 16:40:32,412 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:40:32,412 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:43:20,975 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:43:20,975 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:45:25,629 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:45:25,629 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:48:00,700 - ERROR - An error occurred: while parsing a block mapping
+  in "config/config.yaml", line 58, column 5
+expected <block end>, but found ','
+  in "config/config.yaml", line 58, column 45
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 25, in main
+    config = yaml.safe_load(file)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 438, in parse_block_mapping_key
+    raise ParserError("while parsing a block mapping", self.marks[-1],
+yaml.parser.ParserError: while parsing a block mapping
+  in "config/config.yaml", line 58, column 5
+expected <block end>, but found ','
+  in "config/config.yaml", line 58, column 45
+2024-11-25 16:48:00,700 - ERROR - An error occurred: while parsing a block mapping
+  in "config/config.yaml", line 58, column 5
+expected <block end>, but found ','
+  in "config/config.yaml", line 58, column 45
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 25, in main
+    config = yaml.safe_load(file)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 438, in parse_block_mapping_key
+    raise ParserError("while parsing a block mapping", self.marks[-1],
+yaml.parser.ParserError: while parsing a block mapping
+  in "config/config.yaml", line 58, column 5
+expected <block end>, but found ','
+  in "config/config.yaml", line 58, column 45
+2024-11-25 16:48:59,045 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:48:59,045 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:50:57,374 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:50:57,374 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:51:52,688 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:51:52,688 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:52:22,801 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:52:22,801 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:52:58,200 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[str(name)]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:52:58,200 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[str(name)]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:53:37,092 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING1[str(name)]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:53:37,092 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING1[str(name)]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:54:10,257 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 47, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:54:10,257 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 47, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:54:28,700 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 47, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:54:28,700 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 47, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:55:40,985 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 49, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:55:40,985 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 49, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 17:04:52,662 - ERROR - An error occurred: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 32, in train_and_tune_models
+    with open(config_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not dict
+2024-11-25 17:04:52,662 - ERROR - An error occurred: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 32, in train_and_tune_models
+    with open(config_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not dict
+2024-11-25 17:10:20,711 - ERROR - An error occurred: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 35, in train_and_tune_models
+    with open(config_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not dict
+2024-11-25 17:10:20,711 - ERROR - An error occurred: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 35, in train_and_tune_models
+    with open(config_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not dict
+2024-11-26 12:48:37,544 - ERROR - An error occurred: name 'train_and_tune_models' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'train_and_tune_models' is not defined
+2024-11-26 12:49:13,435 - ERROR - An error occurred: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 44, in main
+    save_best_model_params(best_models, config["params_path"]["path"])
+                                        ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-11-26 12:49:13,435 - ERROR - An error occurred: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 44, in main
+    save_best_model_params(best_models, config["params_path"]["path"])
+                                        ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-11-26 14:53:28,896 - ERROR - An error occurred: cannot access local variable 'metrics' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 58, in main
+    metrics = evaluate_model(model, X_test, y_test, config["metric_path"]["path"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_evaluation.py", line 22, in evaluate_model
+    if metrics is None:
+       ^^^^^^^
+UnboundLocalError: cannot access local variable 'metrics' where it is not associated with a value
+2024-11-26 14:53:28,896 - ERROR - An error occurred: cannot access local variable 'metrics' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 58, in main
+    metrics = evaluate_model(model, X_test, y_test, config["metric_path"]["path"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_evaluation.py", line 22, in evaluate_model
+    if metrics is None:
+       ^^^^^^^
+UnboundLocalError: cannot access local variable 'metrics' where it is not associated with a value
+2024-11-26 14:54:49,932 - ERROR - An error occurred: name 'os' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 58, in main
+    metrics = evaluate_model(model, X_test, y_test, config["metric_path"]["path"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_evaluation.py", line 49, in evaluate_model
+    dir_name = os.path.dirname(output_path)
+               ^^
+NameError: name 'os' is not defined
+2024-11-26 14:54:49,932 - ERROR - An error occurred: name 'os' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 58, in main
+    metrics = evaluate_model(model, X_test, y_test, config["metric_path"]["path"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_evaluation.py", line 49, in evaluate_model
+    dir_name = os.path.dirname(output_path)
+               ^^
+NameError: name 'os' is not defined
+2024-11-26 14:56:19,428 - ERROR - An error occurred: [Errno 2] No such file or directory: './best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 48, in main
+    with open("./best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './best_params.yaml'
+2024-11-26 14:56:19,428 - ERROR - An error occurred: [Errno 2] No such file or directory: './best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 48, in main
+    with open("./best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './best_params.yaml'
+2024-11-26 14:57:07,556 - ERROR - An error occurred: [Errno 2] No such file or directory: '.config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 48, in main
+    with open(".config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '.config/best_params.yaml'
+2024-11-26 14:57:07,556 - ERROR - An error occurred: [Errno 2] No such file or directory: '.config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 48, in main
+    with open(".config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '.config/best_params.yaml'
+2024-11-26 17:47:39,544 - ERROR - An error occurred: [Errno 2] No such file or directory: './config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 49, in main
+    with open("./config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './config/best_params.yaml'
+2024-11-26 17:47:39,544 - ERROR - An error occurred: [Errno 2] No such file or directory: './config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 49, in main
+    with open("./config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './config/best_params.yaml'
+2024-11-26 17:49:11,345 - ERROR - An error occurred: [Errno 2] No such file or directory: './config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 49, in main
+    with open("./config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './config/best_params.yaml'
+2024-11-26 17:49:11,345 - ERROR - An error occurred: [Errno 2] No such file or directory: './config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 49, in main
+    with open("./config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './config/best_params.yaml'
+2024-11-27 12:35:00,881 - ERROR - An error occurred: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 12:42:57,170 - ERROR - An error occurred: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 12:44:58,891 - ERROR - An error occurred: API request to http://127.0.0.1:8081/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8081/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 13:22:33,754 - ERROR - An error occurred: API request to http://127.0.0.1:8081/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8081/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 15:09:39,457 - ERROR - An error occurred: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1271, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1031, in _send_output
+    self.send(msg)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 969, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 17:05:14,991 - ERROR - An error occurred: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 51, in main
+    model = train_model(X_train, y_train,X_test, y_test, best_model_name, best_model_details["params"])
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_training.py", line 23, in train_model
+    model = model(**params)
+TypeError: 'str' object is not callable

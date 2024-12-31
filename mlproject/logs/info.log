@@ -1,0 +1,2083 @@
+2024-11-20 11:53:06,609 - INFO - --------------Starting the MLPipeline--------------
+2024-11-20 11:53:06,611 - INFO - Configuration loaded successfully.
+2024-11-20 11:53:06,615 - INFO - Data loaded from data/data.csv.
+2024-11-20 11:53:06,620 - INFO - Data split into training and testing sets.
+2024-11-20 11:53:07,173 - INFO - Model trained and saved to models/model.pkl.
+2024-11-20 11:53:07,183 - INFO - Model Accuracy: 0.50
+2024-11-20 11:53:07,184 - INFO - Model Hyperparams: {'n_estimators': 300, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'random_state': 42}
+2024-11-20 11:53:07,184 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 14:50:17,550 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 14:50:17,567 - INFO - Configuration loaded successfully.
+2024-11-25 14:50:17,567 - INFO - Data loaded from data/data.csv.
+2024-11-25 14:50:17,583 - INFO - Data split into training and testing sets.
+2024-11-25 14:50:17,903 - INFO - Model trained and saved to models/model.pkl.
+2024-11-25 14:50:17,920 - INFO - Model Accuracy: 0.50
+2024-11-25 14:50:17,920 - INFO - Model Hyperparams: {'n_estimators': 300, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'random_state': 42}
+2024-11-25 14:50:17,920 - INFO - Model Evaluation metrics: {'test_size': 0.1, 'random_state': 42}
+2024-11-25 14:50:17,920 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 15:34:58,514 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 15:34:58,524 - INFO - Configuration loaded successfully.
+2024-11-25 15:34:58,524 - INFO - Data loaded from data/data.csv.
+2024-11-25 15:34:58,524 - INFO - Data split into training and testing sets.
+2024-11-25 15:34:58,785 - INFO - Model trained and saved to models/model.pkl.
+2024-11-25 15:34:58,795 - INFO - Model Accuracy: 0.50
+2024-11-25 15:34:58,796 - INFO - Model Hyperparams: {'n_estimators': 300, 'max_depth': 10, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'random_state': 42}
+2024-11-25 15:34:58,796 - INFO - Model Evaluation metrics: {'test_size': 0.1, 'random_state': 42}
+2024-11-25 15:34:58,796 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 15:36:13,957 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 15:36:13,962 - INFO - Configuration loaded successfully.
+2024-11-25 15:36:13,965 - INFO - Data loaded from data/data.csv.
+2024-11-25 15:36:13,966 - INFO - Data split into training and testing sets.
+2024-11-25 15:36:13,967 - ERROR - An error occurred: 'Mmodel_mapping'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 24, in train_and_tune_models
+    model_mapping = config['Mmodel_mapping']
+                    ~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'Mmodel_mapping'
+2024-11-25 15:36:13,968 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 15:36:44,579 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 15:36:44,579 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 15:36:44,592 - INFO - Configuration loaded successfully.
+2024-11-25 15:36:44,592 - INFO - Configuration loaded successfully.
+2024-11-25 15:36:44,595 - INFO - Data loaded from data/data.csv.
+2024-11-25 15:36:44,595 - INFO - Data loaded from data/data.csv.
+2024-11-25 15:36:44,597 - INFO - Data split into training and testing sets.
+2024-11-25 15:36:44,597 - INFO - Data split into training and testing sets.
+2024-11-25 15:36:44,598 - ERROR - An error occurred: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 33, in train_and_tune_models
+    model = model_class()
+            ^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+2024-11-25 15:36:44,598 - ERROR - An error occurred: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 33, in train_and_tune_models
+    model = model_class()
+            ^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+2024-11-25 15:36:44,599 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 15:36:44,599 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 15:44:43,058 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 15:44:43,058 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 15:44:43,073 - INFO - Configuration loaded successfully.
+2024-11-25 15:44:43,073 - INFO - Configuration loaded successfully.
+2024-11-25 15:44:43,073 - INFO - Data loaded from data/data.csv.
+2024-11-25 15:44:43,073 - INFO - Data loaded from data/data.csv.
+2024-11-25 15:44:43,073 - INFO - Data split into training and testing sets.
+2024-11-25 15:44:43,073 - INFO - Data split into training and testing sets.
+2024-11-25 15:44:43,073 - ERROR - An error occurred: 'LogisticRegression,'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = MODEL_MAPPING[model_mapping[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'LogisticRegression,'
+2024-11-25 15:44:43,073 - ERROR - An error occurred: 'LogisticRegression,'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = MODEL_MAPPING[model_mapping[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'LogisticRegression,'
+2024-11-25 15:44:43,084 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 15:44:43,084 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:40:13,409 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:40:13,409 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:40:13,414 - INFO - Configuration loaded successfully.
+2024-11-25 16:40:13,414 - INFO - Configuration loaded successfully.
+2024-11-25 16:40:13,416 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:40:13,416 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:40:13,418 - INFO - Data split into training and testing sets.
+2024-11-25 16:40:13,418 - INFO - Data split into training and testing sets.
+2024-11-25 16:40:13,419 - ERROR - An error occurred: name 'MODEL_MAPPINGmodel_mapping' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPINGmodel_mapping[name]]
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'MODEL_MAPPINGmodel_mapping' is not defined
+2024-11-25 16:40:13,419 - ERROR - An error occurred: name 'MODEL_MAPPINGmodel_mapping' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPINGmodel_mapping[name]]
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'MODEL_MAPPINGmodel_mapping' is not defined
+2024-11-25 16:40:13,422 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:40:13,422 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:40:32,396 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:40:32,396 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:40:32,396 - INFO - Configuration loaded successfully.
+2024-11-25 16:40:32,396 - INFO - Configuration loaded successfully.
+2024-11-25 16:40:32,396 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:40:32,396 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:40:32,411 - INFO - Data split into training and testing sets.
+2024-11-25 16:40:32,411 - INFO - Data split into training and testing sets.
+2024-11-25 16:40:32,412 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:40:32,412 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:40:32,415 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:40:32,415 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:43:20,958 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:43:20,958 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:43:20,975 - INFO - Configuration loaded successfully.
+2024-11-25 16:43:20,975 - INFO - Configuration loaded successfully.
+2024-11-25 16:43:20,975 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:43:20,975 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:43:20,975 - INFO - Data split into training and testing sets.
+2024-11-25 16:43:20,975 - INFO - Data split into training and testing sets.
+2024-11-25 16:43:20,975 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:43:20,975 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:43:20,985 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:43:20,985 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:45:25,619 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:45:25,619 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:45:25,624 - INFO - Configuration loaded successfully.
+2024-11-25 16:45:25,624 - INFO - Configuration loaded successfully.
+2024-11-25 16:45:25,627 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:45:25,627 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:45:25,628 - INFO - Data split into training and testing sets.
+2024-11-25 16:45:25,628 - INFO - Data split into training and testing sets.
+2024-11-25 16:45:25,629 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:45:25,629 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:45:25,632 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:45:25,632 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:48:00,691 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:48:00,691 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:48:00,700 - ERROR - An error occurred: while parsing a block mapping
+  in "config/config.yaml", line 58, column 5
+expected <block end>, but found ','
+  in "config/config.yaml", line 58, column 45
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 25, in main
+    config = yaml.safe_load(file)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 438, in parse_block_mapping_key
+    raise ParserError("while parsing a block mapping", self.marks[-1],
+yaml.parser.ParserError: while parsing a block mapping
+  in "config/config.yaml", line 58, column 5
+expected <block end>, but found ','
+  in "config/config.yaml", line 58, column 45
+2024-11-25 16:48:00,700 - ERROR - An error occurred: while parsing a block mapping
+  in "config/config.yaml", line 58, column 5
+expected <block end>, but found ','
+  in "config/config.yaml", line 58, column 45
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 25, in main
+    config = yaml.safe_load(file)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\parser.py", line 438, in parse_block_mapping_key
+    raise ParserError("while parsing a block mapping", self.marks[-1],
+yaml.parser.ParserError: while parsing a block mapping
+  in "config/config.yaml", line 58, column 5
+expected <block end>, but found ','
+  in "config/config.yaml", line 58, column 45
+2024-11-25 16:48:00,719 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:48:00,719 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:48:59,045 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:48:59,045 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:48:59,045 - INFO - Configuration loaded successfully.
+2024-11-25 16:48:59,045 - INFO - Configuration loaded successfully.
+2024-11-25 16:48:59,045 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:48:59,045 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:48:59,045 - INFO - Data split into training and testing sets.
+2024-11-25 16:48:59,045 - INFO - Data split into training and testing sets.
+2024-11-25 16:48:59,045 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:48:59,045 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    model_class = model_mapping[MODEL_MAPPING[name]]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:48:59,060 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:48:59,060 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:50:57,365 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:50:57,365 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:50:57,365 - INFO - Configuration loaded successfully.
+2024-11-25 16:50:57,365 - INFO - Configuration loaded successfully.
+2024-11-25 16:50:57,365 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:50:57,365 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:50:57,374 - INFO - Data split into training and testing sets.
+2024-11-25 16:50:57,374 - INFO - Data split into training and testing sets.
+2024-11-25 16:50:57,374 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:50:57,374 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:50:57,376 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:50:57,376 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:51:52,686 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:51:52,686 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:51:52,688 - INFO - Configuration loaded successfully.
+2024-11-25 16:51:52,688 - INFO - Configuration loaded successfully.
+2024-11-25 16:51:52,688 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:51:52,688 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:51:52,688 - INFO - Data split into training and testing sets.
+2024-11-25 16:51:52,688 - INFO - Data split into training and testing sets.
+2024-11-25 16:51:52,688 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:51:52,688 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:51:52,698 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:51:52,698 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:52:22,792 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:52:22,792 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:52:22,796 - INFO - Configuration loaded successfully.
+2024-11-25 16:52:22,796 - INFO - Configuration loaded successfully.
+2024-11-25 16:52:22,798 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:52:22,798 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:52:22,800 - INFO - Data split into training and testing sets.
+2024-11-25 16:52:22,800 - INFO - Data split into training and testing sets.
+2024-11-25 16:52:22,801 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:52:22,801 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[name]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:52:22,804 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:52:22,804 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:52:58,192 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:52:58,192 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:52:58,196 - INFO - Configuration loaded successfully.
+2024-11-25 16:52:58,196 - INFO - Configuration loaded successfully.
+2024-11-25 16:52:58,199 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:52:58,199 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:52:58,200 - INFO - Data split into training and testing sets.
+2024-11-25 16:52:58,200 - INFO - Data split into training and testing sets.
+2024-11-25 16:52:58,200 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[str(name)]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:52:58,200 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING[str(name)]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:52:58,202 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:52:58,202 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:53:37,067 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:53:37,067 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:53:37,083 - INFO - Configuration loaded successfully.
+2024-11-25 16:53:37,083 - INFO - Configuration loaded successfully.
+2024-11-25 16:53:37,088 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:53:37,088 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:53:37,091 - INFO - Data split into training and testing sets.
+2024-11-25 16:53:37,091 - INFO - Data split into training and testing sets.
+2024-11-25 16:53:37,092 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING1[str(name)]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:53:37,092 - ERROR - An error occurred: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 39, in train_and_tune_models
+    print("******************************", model_mapping[MODEL_MAPPING1[str(name)]])
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+2024-11-25 16:53:37,092 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:53:37,092 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:54:10,240 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:54:10,240 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:54:10,240 - INFO - Configuration loaded successfully.
+2024-11-25 16:54:10,240 - INFO - Configuration loaded successfully.
+2024-11-25 16:54:10,253 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:54:10,253 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:54:10,256 - INFO - Data split into training and testing sets.
+2024-11-25 16:54:10,256 - INFO - Data split into training and testing sets.
+2024-11-25 16:54:10,257 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 47, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:54:10,257 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 47, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:54:10,261 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:54:10,261 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:54:28,689 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:54:28,689 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:54:28,694 - INFO - Configuration loaded successfully.
+2024-11-25 16:54:28,694 - INFO - Configuration loaded successfully.
+2024-11-25 16:54:28,697 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:54:28,697 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:54:28,699 - INFO - Data split into training and testing sets.
+2024-11-25 16:54:28,699 - INFO - Data split into training and testing sets.
+2024-11-25 16:54:28,700 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 47, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:54:28,700 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 47, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:54:28,702 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:54:28,702 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:55:40,975 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:55:40,975 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 16:55:40,975 - INFO - Configuration loaded successfully.
+2024-11-25 16:55:40,975 - INFO - Configuration loaded successfully.
+2024-11-25 16:55:40,975 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:55:40,975 - INFO - Data loaded from data/data.csv.
+2024-11-25 16:55:40,985 - INFO - Data split into training and testing sets.
+2024-11-25 16:55:40,985 - INFO - Data split into training and testing sets.
+2024-11-25 16:55:40,985 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 49, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:55:40,985 - ERROR - An error occurred: name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 49, in train_and_tune_models
+    estimator=model,
+              ^^^^^
+NameError: name 'model' is not defined
+2024-11-25 16:55:40,988 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 16:55:40,988 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 17:04:52,652 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 17:04:52,652 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 17:04:52,662 - INFO - Configuration loaded successfully.
+2024-11-25 17:04:52,662 - INFO - Configuration loaded successfully.
+2024-11-25 17:04:52,662 - INFO - Data loaded from data/data.csv.
+2024-11-25 17:04:52,662 - INFO - Data loaded from data/data.csv.
+2024-11-25 17:04:52,662 - INFO - Data split into training and testing sets.
+2024-11-25 17:04:52,662 - INFO - Data split into training and testing sets.
+2024-11-25 17:04:52,662 - ERROR - An error occurred: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 32, in train_and_tune_models
+    with open(config_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not dict
+2024-11-25 17:04:52,662 - ERROR - An error occurred: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 32, in train_and_tune_models
+    with open(config_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not dict
+2024-11-25 17:04:52,672 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 17:04:52,672 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 17:10:20,693 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 17:10:20,693 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 17:10:20,693 - INFO - Configuration loaded successfully.
+2024-11-25 17:10:20,693 - INFO - Configuration loaded successfully.
+2024-11-25 17:10:20,693 - INFO - Data loaded from data/data.csv.
+2024-11-25 17:10:20,693 - INFO - Data loaded from data/data.csv.
+2024-11-25 17:10:20,710 - INFO - Data split into training and testing sets.
+2024-11-25 17:10:20,710 - INFO - Data split into training and testing sets.
+2024-11-25 17:10:20,711 - ERROR - An error occurred: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 35, in train_and_tune_models
+    with open(config_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not dict
+2024-11-25 17:10:20,711 - ERROR - An error occurred: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_experimentation.py", line 35, in train_and_tune_models
+    with open(config_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not dict
+2024-11-25 17:10:20,714 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 17:10:20,714 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 17:11:41,519 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 17:11:41,519 - INFO - --------------Starting the MLPipeline--------------
+2024-11-25 17:11:41,521 - INFO - Configuration loaded successfully.
+2024-11-25 17:11:41,521 - INFO - Configuration loaded successfully.
+2024-11-25 17:11:41,527 - INFO - Data loaded from data/data.csv.
+2024-11-25 17:11:41,527 - INFO - Data loaded from data/data.csv.
+2024-11-25 17:11:41,527 - INFO - Data split into training and testing sets.
+2024-11-25 17:11:41,527 - INFO - Data split into training and testing sets.
+2024-11-25 17:11:44,353 - INFO - --------------Pipeline execution completed--------------
+2024-11-25 17:11:44,353 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 10:34:51,561 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 10:34:51,561 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 10:34:51,567 - INFO - Configuration loaded successfully.
+2024-11-26 10:34:51,567 - INFO - Configuration loaded successfully.
+2024-11-26 10:34:51,574 - INFO - Data loaded from data/data.csv.
+2024-11-26 10:34:51,574 - INFO - Data loaded from data/data.csv.
+2024-11-26 10:34:51,582 - INFO - Data split into training and testing sets.
+2024-11-26 10:34:51,582 - INFO - Data split into training and testing sets.
+2024-11-26 10:34:54,771 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 10:34:54,771 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 10:35:59,767 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 10:35:59,767 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 10:35:59,782 - INFO - Configuration loaded successfully.
+2024-11-26 10:35:59,782 - INFO - Configuration loaded successfully.
+2024-11-26 10:35:59,782 - INFO - Data loaded from data/data.csv.
+2024-11-26 10:35:59,782 - INFO - Data loaded from data/data.csv.
+2024-11-26 10:35:59,782 - INFO - Data split into training and testing sets.
+2024-11-26 10:35:59,782 - INFO - Data split into training and testing sets.
+2024-11-26 10:36:02,782 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 10:36:02,782 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 12:48:37,535 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 12:48:37,538 - INFO - Configuration loaded successfully.
+2024-11-26 12:48:37,541 - INFO - Data loaded from data/data.csv.
+2024-11-26 12:48:37,543 - INFO - Data split into training and testing sets.
+2024-11-26 12:48:37,544 - ERROR - An error occurred: name 'train_and_tune_models' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 40, in main
+    best_models = train_and_tune_models(X_train, y_train, config)
+                  ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'train_and_tune_models' is not defined
+2024-11-26 12:48:37,555 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 12:49:10,635 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 12:49:10,635 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 12:49:10,635 - INFO - Configuration loaded successfully.
+2024-11-26 12:49:10,635 - INFO - Configuration loaded successfully.
+2024-11-26 12:49:10,651 - INFO - Data loaded from data/data.csv.
+2024-11-26 12:49:10,651 - INFO - Data loaded from data/data.csv.
+2024-11-26 12:49:10,651 - INFO - Data split into training and testing sets.
+2024-11-26 12:49:10,651 - INFO - Data split into training and testing sets.
+2024-11-26 12:49:13,435 - ERROR - An error occurred: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 44, in main
+    save_best_model_params(best_models, config["params_path"]["path"])
+                                        ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-11-26 12:49:13,435 - ERROR - An error occurred: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 44, in main
+    save_best_model_params(best_models, config["params_path"]["path"])
+                                        ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-11-26 12:49:13,436 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 12:49:13,436 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 12:54:24,445 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 12:54:24,445 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 12:54:24,445 - INFO - Configuration loaded successfully.
+2024-11-26 12:54:24,445 - INFO - Configuration loaded successfully.
+2024-11-26 12:54:24,445 - INFO - Data loaded from data/data.csv.
+2024-11-26 12:54:24,445 - INFO - Data loaded from data/data.csv.
+2024-11-26 12:54:24,445 - INFO - Data split into training and testing sets.
+2024-11-26 12:54:24,445 - INFO - Data split into training and testing sets.
+2024-11-26 12:54:27,510 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 12:54:27,510 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 12:57:23,773 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 12:57:23,773 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 12:57:23,773 - INFO - Configuration loaded successfully.
+2024-11-26 12:57:23,773 - INFO - Configuration loaded successfully.
+2024-11-26 12:57:23,773 - INFO - Data loaded from data/data.csv.
+2024-11-26 12:57:23,773 - INFO - Data loaded from data/data.csv.
+2024-11-26 12:57:23,773 - INFO - Data split into training and testing sets.
+2024-11-26 12:57:23,773 - INFO - Data split into training and testing sets.
+2024-11-26 12:57:26,514 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 12:57:26,514 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 12:58:44,682 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 12:58:44,682 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 12:58:44,682 - INFO - Configuration loaded successfully.
+2024-11-26 12:58:44,682 - INFO - Configuration loaded successfully.
+2024-11-26 12:58:44,682 - INFO - Data loaded from data/data.csv.
+2024-11-26 12:58:44,682 - INFO - Data loaded from data/data.csv.
+2024-11-26 12:58:44,682 - INFO - Data split into training and testing sets.
+2024-11-26 12:58:44,682 - INFO - Data split into training and testing sets.
+2024-11-26 12:58:47,512 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 12:58:47,512 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:01:09,560 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:01:09,560 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:01:09,560 - INFO - Configuration loaded successfully.
+2024-11-26 13:01:09,560 - INFO - Configuration loaded successfully.
+2024-11-26 13:01:09,576 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:01:09,576 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:01:09,576 - INFO - Data split into training and testing sets.
+2024-11-26 13:01:09,576 - INFO - Data split into training and testing sets.
+2024-11-26 13:01:12,299 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:01:12,299 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:02:27,620 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:02:27,620 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:02:27,620 - INFO - Configuration loaded successfully.
+2024-11-26 13:02:27,620 - INFO - Configuration loaded successfully.
+2024-11-26 13:02:27,620 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:02:27,620 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:02:27,620 - INFO - Data split into training and testing sets.
+2024-11-26 13:02:27,620 - INFO - Data split into training and testing sets.
+2024-11-26 13:02:30,308 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:02:30,308 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:04:52,148 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:04:52,148 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:04:52,151 - INFO - Configuration loaded successfully.
+2024-11-26 13:04:52,151 - INFO - Configuration loaded successfully.
+2024-11-26 13:04:52,154 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:04:52,154 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:04:52,155 - INFO - Data split into training and testing sets.
+2024-11-26 13:04:52,155 - INFO - Data split into training and testing sets.
+2024-11-26 13:04:54,880 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:04:54,880 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:05:37,696 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:05:37,696 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:05:37,696 - INFO - Configuration loaded successfully.
+2024-11-26 13:05:37,696 - INFO - Configuration loaded successfully.
+2024-11-26 13:05:37,696 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:05:37,696 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:05:37,704 - INFO - Data split into training and testing sets.
+2024-11-26 13:05:37,704 - INFO - Data split into training and testing sets.
+2024-11-26 13:05:40,627 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:05:40,627 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:07:32,167 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:07:32,167 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 13:07:32,170 - INFO - Configuration loaded successfully.
+2024-11-26 13:07:32,170 - INFO - Configuration loaded successfully.
+2024-11-26 13:07:32,173 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:07:32,173 - INFO - Data loaded from data/data.csv.
+2024-11-26 13:07:32,175 - INFO - Data split into training and testing sets.
+2024-11-26 13:07:32,175 - INFO - Data split into training and testing sets.
+2024-11-26 13:07:35,082 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 13:07:35,082 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:35:23,516 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:35:23,516 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:35:23,516 - INFO - Configuration loaded successfully.
+2024-11-26 14:35:23,516 - INFO - Configuration loaded successfully.
+2024-11-26 14:35:23,516 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:35:23,516 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:35:23,516 - INFO - Data split into training and testing sets.
+2024-11-26 14:35:23,516 - INFO - Data split into training and testing sets.
+2024-11-26 14:35:26,712 - INFO - Best Params loaded successfully.
+2024-11-26 14:35:26,712 - INFO - Best Params loaded successfully.
+2024-11-26 14:35:26,757 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:35:26,757 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:35:26,759 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:35:26,759 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:53:26,025 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:53:26,025 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:53:26,025 - INFO - Configuration loaded successfully.
+2024-11-26 14:53:26,025 - INFO - Configuration loaded successfully.
+2024-11-26 14:53:26,025 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:53:26,025 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:53:26,025 - INFO - Data split into training and testing sets.
+2024-11-26 14:53:26,025 - INFO - Data split into training and testing sets.
+2024-11-26 14:53:28,862 - INFO - Best Params loaded successfully.
+2024-11-26 14:53:28,862 - INFO - Best Params loaded successfully.
+2024-11-26 14:53:28,888 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:53:28,888 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:53:28,896 - ERROR - An error occurred: cannot access local variable 'metrics' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 58, in main
+    metrics = evaluate_model(model, X_test, y_test, config["metric_path"]["path"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_evaluation.py", line 22, in evaluate_model
+    if metrics is None:
+       ^^^^^^^
+UnboundLocalError: cannot access local variable 'metrics' where it is not associated with a value
+2024-11-26 14:53:28,896 - ERROR - An error occurred: cannot access local variable 'metrics' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 58, in main
+    metrics = evaluate_model(model, X_test, y_test, config["metric_path"]["path"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_evaluation.py", line 22, in evaluate_model
+    if metrics is None:
+       ^^^^^^^
+UnboundLocalError: cannot access local variable 'metrics' where it is not associated with a value
+2024-11-26 14:53:28,901 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:53:28,901 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:54:47,061 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:54:47,061 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:54:47,070 - INFO - Configuration loaded successfully.
+2024-11-26 14:54:47,070 - INFO - Configuration loaded successfully.
+2024-11-26 14:54:47,070 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:54:47,070 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:54:47,070 - INFO - Data split into training and testing sets.
+2024-11-26 14:54:47,070 - INFO - Data split into training and testing sets.
+2024-11-26 14:54:49,882 - INFO - Best Params loaded successfully.
+2024-11-26 14:54:49,882 - INFO - Best Params loaded successfully.
+2024-11-26 14:54:49,912 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:54:49,912 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:54:49,932 - ERROR - An error occurred: name 'os' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 58, in main
+    metrics = evaluate_model(model, X_test, y_test, config["metric_path"]["path"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_evaluation.py", line 49, in evaluate_model
+    dir_name = os.path.dirname(output_path)
+               ^^
+NameError: name 'os' is not defined
+2024-11-26 14:54:49,932 - ERROR - An error occurred: name 'os' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 58, in main
+    metrics = evaluate_model(model, X_test, y_test, config["metric_path"]["path"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_evaluation.py", line 49, in evaluate_model
+    dir_name = os.path.dirname(output_path)
+               ^^
+NameError: name 'os' is not defined
+2024-11-26 14:54:49,936 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:54:49,936 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:55:06,376 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:55:06,376 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:55:06,392 - INFO - Configuration loaded successfully.
+2024-11-26 14:55:06,392 - INFO - Configuration loaded successfully.
+2024-11-26 14:55:06,392 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:55:06,392 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:55:06,392 - INFO - Data split into training and testing sets.
+2024-11-26 14:55:06,392 - INFO - Data split into training and testing sets.
+2024-11-26 14:55:09,267 - INFO - Best Params loaded successfully.
+2024-11-26 14:55:09,267 - INFO - Best Params loaded successfully.
+2024-11-26 14:55:09,305 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:55:09,305 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:55:09,315 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:55:09,315 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:56:16,482 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:56:16,482 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:56:16,482 - INFO - Configuration loaded successfully.
+2024-11-26 14:56:16,482 - INFO - Configuration loaded successfully.
+2024-11-26 14:56:16,482 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:56:16,482 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:56:16,482 - INFO - Data split into training and testing sets.
+2024-11-26 14:56:16,482 - INFO - Data split into training and testing sets.
+2024-11-26 14:56:19,428 - ERROR - An error occurred: [Errno 2] No such file or directory: './best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 48, in main
+    with open("./best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './best_params.yaml'
+2024-11-26 14:56:19,428 - ERROR - An error occurred: [Errno 2] No such file or directory: './best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 48, in main
+    with open("./best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './best_params.yaml'
+2024-11-26 14:56:19,430 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:56:19,430 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:57:04,765 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:57:04,765 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:57:04,781 - INFO - Configuration loaded successfully.
+2024-11-26 14:57:04,781 - INFO - Configuration loaded successfully.
+2024-11-26 14:57:04,781 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:57:04,781 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:57:04,781 - INFO - Data split into training and testing sets.
+2024-11-26 14:57:04,781 - INFO - Data split into training and testing sets.
+2024-11-26 14:57:07,556 - ERROR - An error occurred: [Errno 2] No such file or directory: '.config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 48, in main
+    with open(".config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '.config/best_params.yaml'
+2024-11-26 14:57:07,556 - ERROR - An error occurred: [Errno 2] No such file or directory: '.config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 48, in main
+    with open(".config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '.config/best_params.yaml'
+2024-11-26 14:57:07,558 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:57:07,558 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:57:20,114 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:57:20,114 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 14:57:20,114 - INFO - Configuration loaded successfully.
+2024-11-26 14:57:20,114 - INFO - Configuration loaded successfully.
+2024-11-26 14:57:20,114 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:57:20,114 - INFO - Data loaded from data/data.csv.
+2024-11-26 14:57:20,114 - INFO - Data split into training and testing sets.
+2024-11-26 14:57:20,114 - INFO - Data split into training and testing sets.
+2024-11-26 14:57:23,033 - INFO - Best Params loaded successfully.
+2024-11-26 14:57:23,033 - INFO - Best Params loaded successfully.
+2024-11-26 14:57:23,061 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:57:23,061 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 14:57:23,084 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 14:57:23,084 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 15:01:26,900 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 15:01:26,900 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 15:01:26,900 - INFO - Configuration loaded successfully.
+2024-11-26 15:01:26,900 - INFO - Configuration loaded successfully.
+2024-11-26 15:01:26,900 - INFO - Data loaded from data/data.csv.
+2024-11-26 15:01:26,900 - INFO - Data loaded from data/data.csv.
+2024-11-26 15:01:26,908 - INFO - Data split into training and testing sets.
+2024-11-26 15:01:26,908 - INFO - Data split into training and testing sets.
+2024-11-26 15:01:29,807 - INFO - Saved best model details
+2024-11-26 15:01:29,807 - INFO - Saved best model details
+2024-11-26 15:01:29,808 - INFO - Best Params loaded successfully.
+2024-11-26 15:01:29,808 - INFO - Best Params loaded successfully.
+2024-11-26 15:01:29,839 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 15:01:29,839 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 15:01:29,846 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 15:01:29,846 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 15:04:03,630 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 15:04:03,630 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 15:04:03,630 - INFO - Configuration loaded successfully.
+2024-11-26 15:04:03,630 - INFO - Configuration loaded successfully.
+2024-11-26 15:04:03,647 - INFO - Data loaded from data/data.csv.
+2024-11-26 15:04:03,647 - INFO - Data loaded from data/data.csv.
+2024-11-26 15:04:03,647 - INFO - Data split into training and testing sets.
+2024-11-26 15:04:03,647 - INFO - Data split into training and testing sets.
+2024-11-26 15:04:06,522 - INFO - Saved best model details
+2024-11-26 15:04:06,522 - INFO - Saved best model details
+2024-11-26 15:04:06,523 - INFO - Best Params loaded successfully.
+2024-11-26 15:04:06,523 - INFO - Best Params loaded successfully.
+2024-11-26 15:04:06,552 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 15:04:06,552 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 15:04:06,563 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 15:04:06,563 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 15:09:57,202 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 15:09:57,202 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 15:09:57,218 - INFO - Configuration loaded successfully.
+2024-11-26 15:09:57,218 - INFO - Configuration loaded successfully.
+2024-11-26 15:09:57,218 - INFO - Data loaded from data/data.csv.
+2024-11-26 15:09:57,218 - INFO - Data loaded from data/data.csv.
+2024-11-26 15:09:57,218 - INFO - Data split into training and testing sets.
+2024-11-26 15:09:57,218 - INFO - Data split into training and testing sets.
+2024-11-26 15:10:00,142 - INFO - Saved best model details
+2024-11-26 15:10:00,142 - INFO - Saved best model details
+2024-11-26 15:10:00,143 - INFO - Best Params loaded successfully.
+2024-11-26 15:10:00,143 - INFO - Best Params loaded successfully.
+2024-11-26 15:10:00,179 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 15:10:00,179 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 15:10:00,190 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 15:10:00,190 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 16:42:57,465 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 16:42:57,465 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 16:42:57,467 - INFO - Configuration loaded successfully.
+2024-11-26 16:42:57,467 - INFO - Configuration loaded successfully.
+2024-11-26 16:42:57,470 - INFO - Data loaded from data/data.csv.
+2024-11-26 16:42:57,470 - INFO - Data loaded from data/data.csv.
+2024-11-26 16:42:57,470 - INFO - Data split into training and testing sets.
+2024-11-26 16:42:57,470 - INFO - Data split into training and testing sets.
+2024-11-26 16:43:01,131 - INFO - Saved best model details
+2024-11-26 16:43:01,131 - INFO - Saved best model details
+2024-11-26 16:43:01,132 - INFO - Best Params loaded successfully.
+2024-11-26 16:43:01,132 - INFO - Best Params loaded successfully.
+2024-11-26 16:43:01,201 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 16:43:01,201 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 16:43:01,217 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 16:43:01,217 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 16:45:31,870 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 16:45:31,870 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 16:45:31,870 - INFO - Configuration loaded successfully.
+2024-11-26 16:45:31,870 - INFO - Configuration loaded successfully.
+2024-11-26 16:45:31,870 - INFO - Data loaded from data/data.csv.
+2024-11-26 16:45:31,870 - INFO - Data loaded from data/data.csv.
+2024-11-26 16:45:31,870 - INFO - Data split into training and testing sets.
+2024-11-26 16:45:31,870 - INFO - Data split into training and testing sets.
+2024-11-26 16:45:34,874 - INFO - Saved best model details
+2024-11-26 16:45:34,874 - INFO - Saved best model details
+2024-11-26 16:45:34,875 - INFO - Best Params loaded successfully.
+2024-11-26 16:45:34,875 - INFO - Best Params loaded successfully.
+2024-11-26 16:45:34,911 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 16:45:34,911 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 16:45:34,918 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 16:45:34,918 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 16:46:57,622 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 16:46:57,622 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 16:46:57,622 - INFO - Configuration loaded successfully.
+2024-11-26 16:46:57,622 - INFO - Configuration loaded successfully.
+2024-11-26 16:46:57,637 - INFO - Data loaded from data/data.csv.
+2024-11-26 16:46:57,637 - INFO - Data loaded from data/data.csv.
+2024-11-26 16:46:57,637 - INFO - Data split into training and testing sets.
+2024-11-26 16:46:57,637 - INFO - Data split into training and testing sets.
+2024-11-26 16:47:00,484 - INFO - Saved best model details
+2024-11-26 16:47:00,484 - INFO - Saved best model details
+2024-11-26 16:47:00,484 - INFO - Best Params loaded successfully.
+2024-11-26 16:47:00,484 - INFO - Best Params loaded successfully.
+2024-11-26 16:47:00,523 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 16:47:00,523 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 16:47:00,537 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 16:47:00,537 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 16:48:14,071 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 16:48:14,071 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 16:48:14,078 - INFO - Configuration loaded successfully.
+2024-11-26 16:48:14,078 - INFO - Configuration loaded successfully.
+2024-11-26 16:48:14,078 - INFO - Data loaded from data/data.csv.
+2024-11-26 16:48:14,078 - INFO - Data loaded from data/data.csv.
+2024-11-26 16:48:14,078 - INFO - Data split into training and testing sets.
+2024-11-26 16:48:14,078 - INFO - Data split into training and testing sets.
+2024-11-26 16:48:16,985 - INFO - Saved best model details
+2024-11-26 16:48:16,985 - INFO - Saved best model details
+2024-11-26 16:48:16,985 - INFO - Best Params loaded successfully.
+2024-11-26 16:48:16,985 - INFO - Best Params loaded successfully.
+2024-11-26 16:48:17,029 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 16:48:17,029 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 16:48:17,034 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 16:48:17,034 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:33:53,876 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:33:53,876 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:33:53,891 - INFO - Configuration loaded successfully.
+2024-11-26 17:33:53,891 - INFO - Configuration loaded successfully.
+2024-11-26 17:33:53,891 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:33:53,891 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:33:53,891 - INFO - Data split into training and testing sets.
+2024-11-26 17:33:53,891 - INFO - Data split into training and testing sets.
+2024-11-26 17:33:56,801 - INFO - Saved best model details
+2024-11-26 17:33:56,801 - INFO - Saved best model details
+2024-11-26 17:33:56,804 - INFO - Best Params loaded successfully.
+2024-11-26 17:33:56,804 - INFO - Best Params loaded successfully.
+2024-11-26 17:33:56,835 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:33:56,835 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:33:56,845 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:33:56,845 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:46:04,554 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:46:04,554 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:46:04,554 - INFO - Configuration loaded successfully.
+2024-11-26 17:46:04,554 - INFO - Configuration loaded successfully.
+2024-11-26 17:46:04,564 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:46:04,564 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:46:04,564 - INFO - Data split into training and testing sets.
+2024-11-26 17:46:04,564 - INFO - Data split into training and testing sets.
+2024-11-26 17:46:07,628 - INFO - Saved best model details
+2024-11-26 17:46:07,628 - INFO - Saved best model details
+2024-11-26 17:46:07,628 - INFO - Best Params loaded successfully.
+2024-11-26 17:46:07,628 - INFO - Best Params loaded successfully.
+2024-11-26 17:46:07,652 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:46:07,652 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:46:07,669 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:46:07,669 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:46:26,162 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:46:26,162 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:46:26,166 - INFO - Configuration loaded successfully.
+2024-11-26 17:46:26,166 - INFO - Configuration loaded successfully.
+2024-11-26 17:46:26,169 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:46:26,169 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:46:26,169 - INFO - Data split into training and testing sets.
+2024-11-26 17:46:26,169 - INFO - Data split into training and testing sets.
+2024-11-26 17:46:29,572 - INFO - Saved best model details
+2024-11-26 17:46:29,572 - INFO - Saved best model details
+2024-11-26 17:46:29,574 - INFO - Best Params loaded successfully.
+2024-11-26 17:46:29,574 - INFO - Best Params loaded successfully.
+2024-11-26 17:46:29,616 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:46:29,616 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:46:29,628 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:46:29,628 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:47:36,707 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:47:36,707 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:47:36,707 - INFO - Configuration loaded successfully.
+2024-11-26 17:47:36,707 - INFO - Configuration loaded successfully.
+2024-11-26 17:47:36,723 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:47:36,723 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:47:36,723 - INFO - Data split into training and testing sets.
+2024-11-26 17:47:36,723 - INFO - Data split into training and testing sets.
+2024-11-26 17:47:39,540 - INFO - Saved best model details
+2024-11-26 17:47:39,540 - INFO - Saved best model details
+2024-11-26 17:47:39,544 - ERROR - An error occurred: [Errno 2] No such file or directory: './config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 49, in main
+    with open("./config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './config/best_params.yaml'
+2024-11-26 17:47:39,544 - ERROR - An error occurred: [Errno 2] No such file or directory: './config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 49, in main
+    with open("./config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './config/best_params.yaml'
+2024-11-26 17:47:39,546 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:47:39,546 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:49:08,206 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:49:08,206 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:49:08,206 - INFO - Configuration loaded successfully.
+2024-11-26 17:49:08,206 - INFO - Configuration loaded successfully.
+2024-11-26 17:49:08,214 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:49:08,214 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:49:08,218 - INFO - Data split into training and testing sets.
+2024-11-26 17:49:08,218 - INFO - Data split into training and testing sets.
+2024-11-26 17:49:11,344 - INFO - Saved best model details
+2024-11-26 17:49:11,344 - INFO - Saved best model details
+2024-11-26 17:49:11,345 - ERROR - An error occurred: [Errno 2] No such file or directory: './config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 49, in main
+    with open("./config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './config/best_params.yaml'
+2024-11-26 17:49:11,345 - ERROR - An error occurred: [Errno 2] No such file or directory: './config/best_params.yaml'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 49, in main
+    with open("./config/best_params.yaml", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './config/best_params.yaml'
+2024-11-26 17:49:11,347 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:49:11,347 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:49:34,504 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:49:34,504 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:49:34,504 - INFO - Configuration loaded successfully.
+2024-11-26 17:49:34,504 - INFO - Configuration loaded successfully.
+2024-11-26 17:49:34,511 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:49:34,511 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:49:34,515 - INFO - Data split into training and testing sets.
+2024-11-26 17:49:34,515 - INFO - Data split into training and testing sets.
+2024-11-26 17:49:37,355 - INFO - Saved best model details
+2024-11-26 17:49:37,355 - INFO - Saved best model details
+2024-11-26 17:49:37,355 - INFO - Best Params loaded successfully.
+2024-11-26 17:49:37,355 - INFO - Best Params loaded successfully.
+2024-11-26 17:49:37,381 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:49:37,381 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:49:37,397 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:49:37,397 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:50:13,253 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:50:13,253 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:50:13,253 - INFO - Configuration loaded successfully.
+2024-11-26 17:50:13,253 - INFO - Configuration loaded successfully.
+2024-11-26 17:50:13,253 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:50:13,253 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:50:13,253 - INFO - Data split into training and testing sets.
+2024-11-26 17:50:13,253 - INFO - Data split into training and testing sets.
+2024-11-26 17:50:16,043 - INFO - Saved best model details
+2024-11-26 17:50:16,043 - INFO - Saved best model details
+2024-11-26 17:50:16,051 - INFO - Best Params loaded successfully.
+2024-11-26 17:50:16,051 - INFO - Best Params loaded successfully.
+2024-11-26 17:50:16,083 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:50:16,083 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:50:16,093 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:50:16,093 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:50:44,505 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:50:44,505 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:50:44,505 - INFO - Configuration loaded successfully.
+2024-11-26 17:50:44,505 - INFO - Configuration loaded successfully.
+2024-11-26 17:50:44,521 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:50:44,521 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:50:44,523 - INFO - Data split into training and testing sets.
+2024-11-26 17:50:44,523 - INFO - Data split into training and testing sets.
+2024-11-26 17:50:47,486 - INFO - Saved best model details
+2024-11-26 17:50:47,486 - INFO - Saved best model details
+2024-11-26 17:50:47,487 - INFO - Best Params loaded successfully.
+2024-11-26 17:50:47,487 - INFO - Best Params loaded successfully.
+2024-11-26 17:50:47,521 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:50:47,521 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:50:47,529 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:50:47,529 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:51:59,060 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:51:59,060 - INFO - --------------Starting the MLPipeline--------------
+2024-11-26 17:51:59,060 - INFO - Configuration loaded successfully.
+2024-11-26 17:51:59,060 - INFO - Configuration loaded successfully.
+2024-11-26 17:51:59,060 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:51:59,060 - INFO - Data loaded from data/data.csv.
+2024-11-26 17:51:59,060 - INFO - Data split into training and testing sets.
+2024-11-26 17:51:59,060 - INFO - Data split into training and testing sets.
+2024-11-26 17:52:01,876 - INFO - Saved best model details
+2024-11-26 17:52:01,876 - INFO - Saved best model details
+2024-11-26 17:52:01,876 - INFO - Best Params loaded successfully.
+2024-11-26 17:52:01,876 - INFO - Best Params loaded successfully.
+2024-11-26 17:52:01,904 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:52:01,904 - INFO - Model trained and saved to models/model.pkl.
+2024-11-26 17:52:01,918 - INFO - --------------Pipeline execution completed--------------
+2024-11-26 17:52:01,918 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 10:04:58,709 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 10:04:58,709 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 10:04:58,725 - INFO - Configuration loaded successfully.
+2024-11-27 10:04:58,725 - INFO - Configuration loaded successfully.
+2024-11-27 10:04:58,725 - INFO - Data loaded from data/data.csv.
+2024-11-27 10:04:58,725 - INFO - Data loaded from data/data.csv.
+2024-11-27 10:04:58,725 - INFO - Data split into training and testing sets.
+2024-11-27 10:04:58,725 - INFO - Data split into training and testing sets.
+2024-11-27 10:05:01,574 - INFO - Saved best model details
+2024-11-27 10:05:01,574 - INFO - Saved best model details
+2024-11-27 10:05:01,574 - INFO - Best Params loaded successfully.
+2024-11-27 10:05:01,574 - INFO - Best Params loaded successfully.
+2024-11-27 10:05:01,606 - INFO - Model trained and saved to models/model.pkl.
+2024-11-27 10:05:01,606 - INFO - Model trained and saved to models/model.pkl.
+2024-11-27 10:05:01,617 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 10:05:01,617 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 10:05:42,768 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 10:05:42,768 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 10:05:42,768 - INFO - Configuration loaded successfully.
+2024-11-27 10:05:42,768 - INFO - Configuration loaded successfully.
+2024-11-27 10:05:42,768 - INFO - Data loaded from data/data.csv.
+2024-11-27 10:05:42,768 - INFO - Data loaded from data/data.csv.
+2024-11-27 10:05:42,786 - INFO - Data split into training and testing sets.
+2024-11-27 10:05:42,786 - INFO - Data split into training and testing sets.
+2024-11-27 10:05:45,820 - INFO - Saved best model details
+2024-11-27 10:05:45,820 - INFO - Saved best model details
+2024-11-27 10:05:45,821 - INFO - Best Params loaded successfully.
+2024-11-27 10:05:45,821 - INFO - Best Params loaded successfully.
+2024-11-27 10:05:45,857 - INFO - Model trained and saved to models/model.pkl.
+2024-11-27 10:05:45,857 - INFO - Model trained and saved to models/model.pkl.
+2024-11-27 10:05:45,867 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 10:05:45,867 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 10:09:28,777 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 10:09:28,793 - INFO - Configuration loaded successfully.
+2024-11-27 10:09:28,795 - INFO - Data loaded from data/data.csv.
+2024-11-27 10:09:28,798 - INFO - Data split into training and testing sets.
+2024-11-27 10:09:31,648 - INFO - Saved best model details
+2024-11-27 10:09:31,648 - INFO - Best Params loaded successfully.
+2024-11-27 10:09:31,678 - INFO - Model trained and saved to models/model.pkl.
+2024-11-27 10:09:31,693 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 10:11:01,064 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 10:11:01,064 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 10:11:01,064 - INFO - Configuration loaded successfully.
+2024-11-27 10:11:01,064 - INFO - Configuration loaded successfully.
+2024-11-27 10:11:01,080 - INFO - Data loaded from data/data.csv.
+2024-11-27 10:11:01,080 - INFO - Data loaded from data/data.csv.
+2024-11-27 10:11:01,080 - INFO - Data split into training and testing sets.
+2024-11-27 10:11:01,080 - INFO - Data split into training and testing sets.
+2024-11-27 10:11:03,955 - INFO - Saved best model details
+2024-11-27 10:11:03,955 - INFO - Saved best model details
+2024-11-27 10:11:03,955 - INFO - Best Params loaded successfully.
+2024-11-27 10:11:03,955 - INFO - Best Params loaded successfully.
+2024-11-27 10:11:03,988 - INFO - Model trained and saved to models/model.pkl.
+2024-11-27 10:11:03,988 - INFO - Model trained and saved to models/model.pkl.
+2024-11-27 10:11:04,000 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 10:11:04,000 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 10:11:26,813 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 10:11:26,816 - INFO - Configuration loaded successfully.
+2024-11-27 10:11:26,816 - INFO - Data loaded from data/data.csv.
+2024-11-27 10:11:26,816 - INFO - Data split into training and testing sets.
+2024-11-27 10:11:29,851 - INFO - Saved best model details
+2024-11-27 10:11:29,863 - INFO - Best Params loaded successfully.
+2024-11-27 10:11:29,890 - INFO - Model trained and saved to models/model.pkl.
+2024-11-27 10:11:29,905 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 10:21:10,092 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 10:21:10,092 - INFO - Configuration loaded successfully.
+2024-11-27 10:21:10,092 - INFO - Starting data loading process...
+2024-11-27 10:21:10,092 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 10:21:10,092 - INFO - Splitting data into training and testing sets...
+2024-11-27 10:21:10,092 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 10:21:10,092 - INFO - Starting hyperparameter tuning process...
+2024-11-27 10:21:12,952 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 10:21:12,952 - INFO - Saving the best model details...
+2024-11-27 10:21:12,957 - INFO - Best model details saved successfully.
+2024-11-27 10:21:12,957 - INFO - Loading best parameters for model retraining...
+2024-11-27 10:21:12,958 - INFO - Best Params loaded successfully: {'best_params': {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}, 'best_score': 0.6222222222222222, 'model_name': 'XGBClassifier'}
+2024-11-27 10:21:12,958 - INFO - Starting model training process...
+2024-11-27 10:21:12,990 - INFO - Model trained successfully and saved to models/model.pkl.
+2024-11-27 10:21:12,990 - INFO - Starting model evaluation process...
+2024-11-27 10:21:13,001 - INFO - Model evaluation completed. Metrics saved to ./evaluation_metrics.yaml.
+2024-11-27 10:21:13,002 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 11:28:53,298 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 11:28:53,300 - INFO - Configuration loaded successfully.
+2024-11-27 11:28:53,301 - INFO - Starting data loading process...
+2024-11-27 11:28:53,303 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 11:28:53,304 - INFO - Splitting data into training and testing sets...
+2024-11-27 11:28:53,305 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 11:28:53,306 - INFO - Starting hyperparameter tuning process...
+2024-11-27 11:28:56,380 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 11:28:56,380 - INFO - Saving the best model details...
+2024-11-27 11:28:56,392 - INFO - Best model details saved successfully.
+2024-11-27 11:28:56,392 - INFO - Loading best parameters for model retraining...
+2024-11-27 11:28:56,393 - INFO - Best Params loaded successfully: {'best_params': {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}, 'best_score': 0.6222222222222222, 'model_name': 'XGBClassifier'}
+2024-11-27 11:28:56,393 - INFO - Starting model training process...
+2024-11-27 11:28:56,417 - INFO - Model trained successfully and saved to models/model.pkl.
+2024-11-27 11:28:56,417 - INFO - Starting model evaluation process...
+2024-11-27 11:28:56,433 - INFO - Model evaluation completed. Metrics saved to ./evaluation_metrics.yaml.
+2024-11-27 11:28:56,433 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 11:31:44,619 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 11:31:44,635 - INFO - Configuration loaded successfully.
+2024-11-27 11:31:44,635 - INFO - Starting data loading process...
+2024-11-27 11:31:44,635 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 11:31:44,635 - INFO - Splitting data into training and testing sets...
+2024-11-27 11:31:44,635 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 11:31:44,635 - INFO - Starting hyperparameter tuning process...
+2024-11-27 11:31:47,402 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 11:31:47,410 - INFO - Saving the best model details...
+2024-11-27 11:31:47,414 - INFO - Best model details saved successfully.
+2024-11-27 11:31:47,414 - INFO - Loading best parameters for model retraining...
+2024-11-27 11:31:47,415 - INFO - Best Params loaded successfully: {'best_params': {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}, 'best_score': 0.6222222222222222, 'model_name': 'XGBClassifier'}
+2024-11-27 11:31:47,415 - INFO - Starting model training process...
+2024-11-27 11:31:47,443 - INFO - Model trained successfully and saved to models/model.pkl.
+2024-11-27 11:31:47,443 - INFO - Starting model evaluation process...
+2024-11-27 11:31:47,454 - INFO - Model evaluation completed. Metrics saved to ./evaluation_metrics.yaml.
+2024-11-27 11:31:47,454 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 11:46:32,095 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 11:46:32,647 - INFO - Configuration loaded successfully.
+2024-11-27 11:46:32,647 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 11:46:32,668 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 11:46:32,668 - INFO - Starting hyperparameter tuning process...
+2024-11-27 11:46:35,465 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 11:46:35,479 - INFO - Starting model training process...
+2024-11-27 11:46:41,159 - INFO - Model trained successfully.
+2024-11-27 11:46:41,159 - INFO - Starting model evaluation process...
+2024-11-27 11:46:41,179 - INFO - Model evaluation completed.
+2024-11-27 11:46:41,183 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 12:33:45,828 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 12:35:00,881 - ERROR - An error occurred: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020220D749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 12:35:00,936 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 12:41:42,522 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 12:42:57,170 - ERROR - An error occurred: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E38EA4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 12:42:57,199 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 12:43:44,213 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 12:44:58,891 - ERROR - An error occurred: API request to http://127.0.0.1:8081/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8081/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000258A2D74AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 12:44:58,943 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 13:21:20,195 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 13:22:33,754 - ERROR - An error occurred: API request to http://127.0.0.1:8081/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8081/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BB28F749D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 13:22:33,793 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 15:08:24,699 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 15:09:39,457 - ERROR - An error occurred: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1271, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1031, in _send_output
+    self.send(msg)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 969, in send
+    self.connect()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 20, in main
+    mlflow.set_experiment("MLPipeline_Experiments")
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\tracking\fluent.py", line 157, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\tracking\client.py", line 1256, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 502, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\store\tracking\rest_store.py", line 522, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\store\tracking\rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:8080/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=MLPipeline_Experiments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022EEE668580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-11-27 15:09:39,473 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 15:09:54,110 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 15:09:54,198 - INFO - Configuration loaded successfully.
+2024-11-27 15:09:54,205 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 15:09:54,208 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 15:09:54,208 - INFO - Starting hyperparameter tuning process...
+2024-11-27 15:09:57,188 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 15:09:57,194 - INFO - Starting model training process...
+2024-11-27 15:09:59,639 - INFO - Model trained successfully.
+2024-11-27 15:09:59,639 - INFO - Starting model evaluation process...
+2024-11-27 15:09:59,659 - INFO - Model evaluation completed.
+2024-11-27 15:09:59,663 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 15:11:12,441 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 15:11:12,519 - INFO - Configuration loaded successfully.
+2024-11-27 15:11:12,524 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 15:11:12,528 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 15:11:12,528 - INFO - Starting hyperparameter tuning process...
+2024-11-27 15:11:15,304 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 15:11:15,308 - INFO - Starting model training process...
+2024-11-27 15:11:17,522 - INFO - Model trained successfully.
+2024-11-27 15:11:17,522 - INFO - Starting model evaluation process...
+2024-11-27 15:11:17,538 - INFO - Model evaluation completed.
+2024-11-27 15:11:17,543 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 15:13:01,411 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 15:13:01,488 - INFO - Configuration loaded successfully.
+2024-11-27 15:13:01,500 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 15:13:01,503 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 15:13:01,503 - INFO - Starting hyperparameter tuning process...
+2024-11-27 15:13:04,139 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 15:13:04,146 - INFO - Starting model training process...
+2024-11-27 15:13:06,574 - INFO - Model trained successfully.
+2024-11-27 15:13:06,575 - INFO - Starting model evaluation process...
+2024-11-27 15:13:06,589 - INFO - Model evaluation completed.
+2024-11-27 15:13:06,591 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 16:19:09,503 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 16:19:09,805 - INFO - Configuration loaded successfully.
+2024-11-27 16:19:09,812 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 16:19:09,813 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 16:19:09,815 - INFO - Starting hyperparameter tuning process...
+2024-11-27 16:19:12,388 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 16:19:12,392 - INFO - Starting model training process...
+2024-11-27 16:19:14,704 - INFO - Model trained successfully.
+2024-11-27 16:19:14,704 - INFO - Starting model evaluation process...
+2024-11-27 16:19:14,718 - INFO - Model evaluation completed.
+2024-11-27 16:19:14,723 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 16:23:40,601 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 16:23:40,889 - INFO - Configuration loaded successfully.
+2024-11-27 16:23:40,895 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 16:23:40,898 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 16:23:40,898 - INFO - Starting hyperparameter tuning process...
+2024-11-27 16:23:43,843 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 16:23:43,847 - INFO - Starting model training process...
+2024-11-27 16:23:46,205 - INFO - Model trained successfully.
+2024-11-27 16:23:46,206 - INFO - Starting model evaluation process...
+2024-11-27 16:23:46,220 - INFO - Model evaluation completed.
+2024-11-27 16:23:46,225 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 16:24:21,052 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 16:24:21,349 - INFO - Configuration loaded successfully.
+2024-11-27 16:24:21,355 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 16:24:21,358 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 16:24:21,359 - INFO - Starting hyperparameter tuning process...
+2024-11-27 16:24:23,938 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 16:24:23,942 - INFO - Starting model training process...
+2024-11-27 16:24:26,498 - INFO - Model trained successfully.
+2024-11-27 16:24:26,499 - INFO - Starting model evaluation process...
+2024-11-27 16:24:26,511 - INFO - Model evaluation completed.
+2024-11-27 16:24:26,517 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 16:27:55,595 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 16:27:55,901 - INFO - Configuration loaded successfully.
+2024-11-27 16:27:55,907 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 16:27:55,910 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 16:27:55,910 - INFO - Starting hyperparameter tuning process...
+2024-11-27 16:27:58,867 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 16:27:58,871 - INFO - Starting model training process...
+2024-11-27 16:28:01,163 - INFO - Model trained successfully.
+2024-11-27 16:28:01,163 - INFO - Starting model evaluation process...
+2024-11-27 16:28:01,177 - INFO - Model evaluation completed.
+2024-11-27 16:28:01,182 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:03:24,801 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:03:25,077 - INFO - Configuration loaded successfully.
+2024-11-27 17:03:25,093 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:03:25,097 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:03:25,098 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:03:27,958 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:03:27,963 - INFO - Starting model training process...
+2024-11-27 17:03:30,489 - INFO - Model trained successfully.
+2024-11-27 17:03:30,489 - INFO - Starting model evaluation process...
+2024-11-27 17:03:30,510 - INFO - Model evaluation completed.
+2024-11-27 17:03:30,513 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:05:11,943 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:05:12,225 - INFO - Configuration loaded successfully.
+2024-11-27 17:05:12,240 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:05:12,246 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:05:12,246 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:05:14,981 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:05:14,987 - INFO - Starting model training process...
+2024-11-27 17:05:14,991 - ERROR - An error occurred: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\main.py", line 51, in main
+    model = train_model(X_train, y_train,X_test, y_test, best_model_name, best_model_details["params"])
+  File "C:\Users\Admin\Desktop\MLOps\mlproject\src\model_training.py", line 23, in train_model
+    model = model(**params)
+TypeError: 'str' object is not callable
+2024-11-27 17:05:14,993 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:06:26,214 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:06:26,513 - INFO - Configuration loaded successfully.
+2024-11-27 17:06:26,519 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:06:26,522 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:06:26,523 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:06:29,203 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:06:29,207 - INFO - Starting model training process...
+2024-11-27 17:06:31,796 - INFO - Model trained successfully.
+2024-11-27 17:06:31,797 - INFO - Starting model evaluation process...
+2024-11-27 17:06:31,807 - INFO - Model evaluation completed.
+2024-11-27 17:06:31,811 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:08:38,179 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:08:38,489 - INFO - Configuration loaded successfully.
+2024-11-27 17:08:38,495 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:08:38,497 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:08:38,498 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:08:41,247 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:08:41,252 - INFO - Starting model training process...
+2024-11-27 17:08:43,790 - INFO - Model trained successfully.
+2024-11-27 17:08:43,790 - INFO - Starting model evaluation process...
+2024-11-27 17:08:43,804 - INFO - Model evaluation completed.
+2024-11-27 17:08:43,812 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:13:54,078 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:13:54,384 - INFO - Configuration loaded successfully.
+2024-11-27 17:13:54,390 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:13:54,391 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:13:54,392 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:13:58,336 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:13:58,341 - INFO - Starting model training process...
+2024-11-27 17:14:00,651 - INFO - Model trained successfully.
+2024-11-27 17:14:00,651 - INFO - Starting model evaluation process...
+2024-11-27 17:14:00,663 - INFO - Model evaluation completed.
+2024-11-27 17:14:00,670 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:16:19,817 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:16:20,122 - INFO - Configuration loaded successfully.
+2024-11-27 17:16:20,129 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:16:20,131 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:16:20,131 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:16:23,892 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:16:23,896 - INFO - Starting model training process...
+2024-11-27 17:16:26,565 - INFO - Model trained successfully.
+2024-11-27 17:16:26,565 - INFO - Starting model evaluation process...
+2024-11-27 17:16:26,574 - INFO - Model evaluation completed.
+2024-11-27 17:16:26,577 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:17:45,488 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:17:45,772 - INFO - Configuration loaded successfully.
+2024-11-27 17:17:45,779 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:17:45,781 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:17:45,782 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:17:49,670 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:17:49,671 - INFO - Best model after tuning - XGBClassifier
+2024-11-27 17:17:49,675 - INFO - Starting model training process...
+2024-11-27 17:17:51,953 - INFO - Model trained successfully.
+2024-11-27 17:17:51,953 - INFO - Starting model evaluation process...
+2024-11-27 17:17:51,968 - INFO - Model evaluation completed.
+2024-11-27 17:17:51,972 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:19:30,591 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:19:30,893 - INFO - Configuration loaded successfully.
+2024-11-27 17:19:30,899 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:19:30,901 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:19:30,902 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:19:34,534 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:19:34,534 - INFO - Best model after tuning - XGBClassifier
+2024-11-27 17:19:34,538 - INFO - Starting model training process...
+2024-11-27 17:19:36,953 - INFO - Model trained successfully.
+2024-11-27 17:19:36,953 - INFO - Starting model evaluation process...
+2024-11-27 17:19:36,967 - INFO - Model evaluation completed.
+2024-11-27 17:19:36,972 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:21:08,535 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:21:08,846 - INFO - Configuration loaded successfully.
+2024-11-27 17:21:08,851 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:21:08,854 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:21:08,854 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:21:12,916 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:21:12,916 - INFO - Best model after tuning - XGBClassifier
+2024-11-27 17:21:12,916 - INFO - Params of Best model after tuning - {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}
+2024-11-27 17:21:12,958 - INFO - Starting model training process...
+2024-11-27 17:21:15,235 - INFO - Model trained successfully.
+2024-11-27 17:21:15,236 - INFO - Starting model evaluation process...
+2024-11-27 17:21:15,248 - INFO - Model evaluation completed.
+2024-11-27 17:21:15,254 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:22:33,866 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:22:34,165 - INFO - Configuration loaded successfully.
+2024-11-27 17:22:34,170 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:22:34,173 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:22:34,173 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:22:37,761 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:22:37,761 - INFO - Best model after tuning - XGBClassifier
+2024-11-27 17:22:37,761 - INFO - Params of Best model after tuning - {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}
+2024-11-27 17:22:37,766 - INFO - Starting model training process...
+2024-11-27 17:22:40,028 - INFO - Model trained successfully.
+2024-11-27 17:22:40,029 - INFO - Starting model evaluation process...
+2024-11-27 17:22:40,042 - INFO - Model evaluation completed.
+2024-11-27 17:22:40,043 - INFO - Performance of XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.01, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=5, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, random_state=None, ...) - {'accuracy': 0.5, 'precision': 0.0, 'recall': 0.0, 'f1': 0.0}
+2024-11-27 17:22:40,049 - INFO - --------------Pipeline execution completed--------------
+2024-11-27 17:23:00,383 - INFO - --------------Starting the MLPipeline--------------
+2024-11-27 17:23:00,674 - INFO - Configuration loaded successfully.
+2024-11-27 17:23:00,681 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-27 17:23:00,683 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-27 17:23:00,683 - INFO - Starting hyperparameter tuning process...
+2024-11-27 17:23:04,328 - INFO - Hyperparameter tuning completed successfully.
+2024-11-27 17:23:04,328 - INFO - Best model after tuning - XGBClassifier
+2024-11-27 17:23:04,328 - INFO - Params of Best model after tuning - {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}
+2024-11-27 17:23:04,332 - INFO - Starting model training process...
+2024-11-27 17:23:06,628 - INFO - Model trained successfully.
+2024-11-27 17:23:06,628 - INFO - Starting model evaluation process...
+2024-11-27 17:23:06,642 - INFO - Model evaluation completed.
+2024-11-27 17:23:06,642 - INFO - Performance of XGBClassifier - {'accuracy': 0.5, 'precision': 0.0, 'recall': 0.0, 'f1': 0.0}
+2024-11-27 17:23:06,646 - INFO - --------------Pipeline execution completed--------------
+2024-11-28 15:22:51,581 - INFO - --------------Starting the MLPipeline--------------
+2024-11-28 15:22:52,068 - INFO - Configuration loaded successfully.
+2024-11-28 15:22:52,068 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-28 15:22:52,082 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-28 15:22:52,082 - INFO - Starting hyperparameter tuning process...
+2024-11-28 15:22:56,313 - INFO - Hyperparameter tuning completed successfully.
+2024-11-28 15:22:56,313 - INFO - Best model after tuning - XGBClassifier
+2024-11-28 15:22:56,313 - INFO - Params of Best model after tuning - {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}
+2024-11-28 15:22:56,322 - INFO - Starting model training process...
+2024-11-28 15:22:59,271 - INFO - Model trained successfully.
+2024-11-28 15:22:59,271 - INFO - Starting model evaluation process...
+2024-11-28 15:22:59,290 - INFO - Model evaluation completed.
+2024-11-28 15:22:59,290 - INFO - Performance of XGBClassifier - {'accuracy': 0.5, 'precision': 0.0, 'recall': 0.0, 'f1': 0.0}
+2024-11-28 15:22:59,295 - INFO - --------------Pipeline execution completed--------------
+2024-11-28 15:23:18,808 - INFO - --------------Starting the MLPipeline--------------
+2024-11-28 15:23:19,164 - INFO - Configuration loaded successfully.
+2024-11-28 15:23:19,176 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-11-28 15:23:19,178 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-11-28 15:23:19,178 - INFO - Starting hyperparameter tuning process...
+2024-11-28 15:23:23,386 - INFO - Hyperparameter tuning completed successfully.
+2024-11-28 15:23:23,386 - INFO - Best model after tuning - XGBClassifier
+2024-11-28 15:23:23,386 - INFO - Params of Best model after tuning - {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}
+2024-11-28 15:23:23,396 - INFO - Starting model training process...
+2024-11-28 15:23:26,240 - INFO - Model trained successfully.
+2024-11-28 15:23:26,240 - INFO - Starting model evaluation process...
+2024-11-28 15:23:26,262 - INFO - Model evaluation completed.
+2024-11-28 15:23:26,262 - INFO - Performance of XGBClassifier - {'accuracy': 0.5, 'precision': 0.0, 'recall': 0.0, 'f1': 0.0}
+2024-11-28 15:23:26,266 - INFO - --------------Pipeline execution completed--------------
+2024-12-04 11:09:54,629 - INFO - --------------Starting the MLPipeline--------------
+2024-12-04 11:09:55,075 - INFO - Configuration loaded successfully.
+2024-12-04 11:09:55,091 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-12-04 11:09:55,096 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-12-04 11:09:55,096 - INFO - Starting hyperparameter tuning process...
+2024-12-04 11:09:59,105 - INFO - Hyperparameter tuning completed successfully.
+2024-12-04 11:09:59,105 - INFO - Best model after tuning - XGBClassifier
+2024-12-04 11:09:59,105 - INFO - Params of Best model after tuning - {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}
+2024-12-04 11:09:59,112 - INFO - Starting model training process...
+2024-12-04 11:10:02,144 - INFO - Model trained successfully.
+2024-12-04 11:10:02,144 - INFO - Starting model evaluation process...
+2024-12-04 11:10:02,170 - INFO - Model evaluation completed.
+2024-12-04 11:10:02,170 - INFO - Performance of XGBClassifier - {'accuracy': 0.5, 'precision': 0.0, 'recall': 0.0, 'f1': 0.0}
+2024-12-04 11:10:02,170 - INFO - --------------Pipeline execution completed--------------
+2024-12-17 17:48:37,293 - INFO - --------------Starting the MLPipeline--------------
+2024-12-17 17:48:38,006 - INFO - Configuration loaded successfully.
+2024-12-17 17:48:38,012 - INFO - Data loaded from data/data.csv. Shape: (100, 6)
+2024-12-17 17:48:38,025 - INFO - Data split completed: Train Shape: (90, 5), Test Shape: (10, 5)
+2024-12-17 17:48:38,025 - INFO - Starting hyperparameter tuning process...
+2024-12-17 17:48:42,149 - INFO - Hyperparameter tuning completed successfully.
+2024-12-17 17:48:42,149 - INFO - Best model after tuning - XGBClassifier
+2024-12-17 17:48:42,149 - INFO - Params of Best model after tuning - {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}
+2024-12-17 17:48:42,159 - INFO - Starting model training process...
+2024-12-17 17:48:46,644 - INFO - Model trained successfully.
+2024-12-17 17:48:46,645 - INFO - Starting model evaluation process...
+2024-12-17 17:48:46,661 - INFO - Model evaluation completed.
+2024-12-17 17:48:46,661 - INFO - Performance of XGBClassifier - {'accuracy': 0.5, 'precision': 0.0, 'recall': 0.0, 'f1': 0.0}
+2024-12-17 17:48:46,666 - INFO - --------------Pipeline execution completed--------------
